@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-color: #F9FAFF;
+}
+.container{
+    max-width: 1171px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 54px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+}
+
+ul a{
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+
+}
+
+ul a:hover{
+    color: #FF6838;
+}
+
+ul button{
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    text-align: center;
+    color: white;
+
+    padding: 14px 28px;
+    background-color: #FF7A50;
+    box-shadow: 0px 22px 40px 0px #FF683830;
+    border-radius: 5px;
+    border: none;
+}
+
+.showcase{
+    display: flex;
+    align-items: center;
+}
+
+.showcase h1{
+    font-family: Rubik;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 78.21px;
+}
+
+.showcase h1 span{
+    color: #FF7A50;
+}
+
+.showcase p{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 23px;
+    margin-bottom: 44px;
+}
+
+.showcase-buttons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.primary-button{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    text-align: center;
+    color: white;
+
+    padding: 12px 21px;
+    background-color: #FF7A50;
+    box-shadow: 0px 22px 40px 0px #FF683830;
+    border-radius: 5px;
+    border: none;
+}
+
+.secondary-button{
+    color: #363853;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    text-align: center;
+
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+
+}
+.menu__title{
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin-top: 44px;
+}
+.menu__title span{
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #FF7A50;
+}
+.card{
+    background-color: white;
+    width: 361px;
+    border-radius: 53px 5px 53px 5px;
+    overflow: hidden;
+}
+.card__text-content{
+    padding: 22px 20px;
+}
+.card__title{
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #363853;
+}
+.card__button-time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+.card__time{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+.card__time p{
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    color: #363853;
+    }
+.card__button{
+    background-color: #FF7A50;
+    padding: 5px 28px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 20px 20px 0px 20px;
+}
+.cards-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.stayathome{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-left: 102px;
+}
+.stayathome img{
+    width: 626px;
+    height: 723px;
+    margin-top: 124px;
+}
+.stayathome div{
+    margin-top: 238px;
+    margin-left: 137px;
+    margin-right: 136px;
+}
+
+.stayathome div h2{
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 50px;
+    padding-right: 140px;
+    color: rgba(54, 56, 83, 1);
+}
+.stayathome div p{
+    margin-top: 95px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(54, 56, 83, 1);
+    padding-right: 70px;
+}
+.stayathome div button{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    text-align: left;
+    background-color: rgba(255, 122, 80, 1);
+    box-shadow: 0px 22px 40px 0px rgba(255, 104, 56, 0.19);
+    padding: 17px 44px;
+    border-radius: 30px 30px 1px 30px;
+    border: none;
+    margin-top: 141px;
+    color: rgba(255, 255, 255, 1);
+}
+.download{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 162px;
+}
+.download div{
+    margin-top: 119px;
+}
+.download div h2{
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;
+    color: rgba(54, 56, 83, 1);
+}
+.download div p{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(54, 56, 83, 1);
+    margin-top: 30px;
+}
+footer{
+    background-color: rgba(255, 122, 80, 1);
+    margin-top: 110px;
+    margin-left: 138px;
+    margin-right: 132px;
+    border-radius: 20px;
+    height: 312px;
+    margin-bottom: 197px;
+}
+
+.subscribe{
+    padding: 59px 165px;
+}
+.subscribe h2{
+    font-family: Rubik;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47.4px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+.subscribe input{
+    margin-top: 72px;
+    margin-left: 20px;
+    width: 843px;
+    height: 78px;
+    border: none;
+    border-radius: 70px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 10px 24px 54px 0px rgba(0, 0, 0, 0.07);
+    padding: 24px 43px;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(54, 56, 83, 1)  ;
+}
+.subscribe button{
+    position: relative;
+    left: 660px;
+    top: -69.5px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    background-color: rgba(255, 122, 80, 1);
+    border: none;
+    border-radius: 70px;
+    padding: 15px 47px;
+    color: rgba(255, 255, 255, 1);
+}
